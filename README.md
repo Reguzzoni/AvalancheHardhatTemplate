@@ -54,3 +54,5 @@ You can define custom hardhat tasks in [hardhat.config.ts](https://github.com/av
 
 There is a documentation under the Avalanche's official documentation repository:
 [Using Hardhat with the Avalanche C-Chain](https://docs.avax.network/build/tutorials/smart-contracts/using-hardhat-with-the-avalanche-c-chain)
+
+## Bridge Avalanche Amoy

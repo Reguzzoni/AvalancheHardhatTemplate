@@ -66,14 +66,22 @@ export default {
         },
         fuji: {
             url: `https://api.avax-test.network/ext/bc/C/rpc`,
-            gasPrice: 225000000000,
             chainId: 43113,
             accounts: privateKeys,
         },
         mainnet: {
             url: `https://api.avax.network/ext/bc/C/rpc`,
-            gasPrice: 225000000000,
             chainId: 43114,
+            accounts: privateKeys,
+        },
+        amoy: {
+            url: `https://polygon-amoy.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
+            chainId: 80002,
+            accounts: privateKeys,
+        },
+        sepolia: {
+            url: `https://sepolia.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
+            chainId: 11155111,
             accounts: privateKeys,
         },
     },
